@@ -1,0 +1,54 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px; /* Aumentamos el tamaño de fuente para mejor lectura */
+  }
+  
+  .form-container {
+    width: 90%;
+    max-width: 600px; /* Limitamos el ancho máximo del formulario */
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #000000;
+    border-radius: 5px; /* Bordes redondeados para un diseño más amigable */
+    background-color: #f9f9f9; /* Fondo más claro para destacar el formulario */
+  }
+  
+  .form-field {
+    margin-bottom: 20px;
+  }
+  
+  .form-field label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .form-field input,
+  .form-field textarea {
+    width: 100%;
+    padding: 10px; /* Aumentamos el padding para mejorar la experiencia al escribir */
+    border: 1px solid #ccc;
+    border-radius: 4px; /* Bordes redondeados en campos de entrada */
+    font-size: 16px; /* Aumentamos el tamaño de fuente de los campos de entrada */
+  }
+  
+  .form-field input:focus,
+  .form-field textarea:focus {
+    border-color: #007bff; /* Cambiamos el  color del borde */
+    outline: none; /* Eliminamos el contorno predeterminado */
+  }
+  
+  .submit-button {
+    background-color: #007bff; /* Cambiamos a un color más atractivo */
+    color: white; /* Color del texto en el botón */
+    border: none; /* Quitamos  el borde */
+    padding: 10px 20px;
+    font-size: 16px; /* Aumentar el tamaño del texto en el botón */
+    cursor: pointer; 
+    border-radius: 4px; /* Bordes redondeados en el botón */
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3; /* Color más oscuro al pasar el cursor */
+  }
+  
